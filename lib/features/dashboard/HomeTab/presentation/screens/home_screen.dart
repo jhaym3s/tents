@@ -1,5 +1,5 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
+
 
 class HomeScreen extends StatefulWidget {
   static const routeName = "home_screen";
@@ -12,6 +12,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold();
   }
 }

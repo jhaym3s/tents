@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tents/core/configs/configs.dart';
+import 'package:tents/features/dashboard/HomeTab/presentation/screens/home_screen.dart';
 
 import 'core/app_route/app_router.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       //themeMode: ThemeMode.system,
       theme: AppTheme().lightTheme,
       darkTheme: AppTheme().lightTheme,
-      home: Container(),
+      home: const HomeScreen(),
       onGenerateRoute: AppRouter.onGenerated,
       builder: (context, widget){
         final media = MediaQuery.of(context);
